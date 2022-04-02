@@ -32,6 +32,20 @@ for (let i = 0; i < paragraphs.length; i++) {
   paragraphs[i].style.color = "red";
 }
 
+// ------------------------------------------- Question 6
+const resultsContainer = document.querySelector(".results");
+resultsContainer.innerHTML = `<p>New paragraph</p>`;
+resultsContainer.style.color = "yellow";
+
+// ------------------------------------------- Question 7
+
+
+
+
+
+// ------------------------------------------- Question 8
+
+
 
 
 
