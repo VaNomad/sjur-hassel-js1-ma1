@@ -46,8 +46,28 @@ function catFamily(list) {
 catFamily(cats);
 
 // ------------------------------------------- Question 8
+function createCats(cats) {
+
+  let html = "";
+
+  for (let i = 0; i < cats.length; i++) {
+
+    let age = "Age unknown";
+
+    if (cats[i].age) {
+      catAge = cats[i].age;
+    }
+
+    html += `<div>
+              <h5>${cats[i].name}</h5>
+              <p>${cats[i].age}</p>
+            </div>`
 
 
+  }
+  return html;
+}
+createCats(cats);
 
 
 
