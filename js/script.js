@@ -35,7 +35,7 @@ for (let i = 0; i < paragraphs.length; i++) {
 // ------------------------------------------- Question 6
 const resultsContainer = document.querySelector(".results");
 resultsContainer.innerHTML = `<p>New paragraph</p>`;
-resultsContainer.style.color = "yellow";
+resultsContainer.style.background = "yellow";
 
 // ------------------------------------------- Question 7
 function catFamily(list) {
