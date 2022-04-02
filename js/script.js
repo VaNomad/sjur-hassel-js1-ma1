@@ -34,11 +34,13 @@ for (let i = 0; i < paragraphs.length; i++) {
 
 // ------------------------------------------- Question 6
 const resultsContainer = document.querySelector(".results");
+
 resultsContainer.innerHTML = `<p>New paragraph</p>`;
-resultsContainer.style.background = "yellow";
+resultsContainer.style.backgroundColor = "yellow";
 
 // ------------------------------------------- Question 7
 function catFamily(list) {
+  
   for (let i = 0; i < list.length; i++) {
     console.log(list[i].name);
   }
