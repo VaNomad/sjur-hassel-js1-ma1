@@ -38,10 +38,12 @@ resultsContainer.innerHTML = `<p>New paragraph</p>`;
 resultsContainer.style.color = "yellow";
 
 // ------------------------------------------- Question 7
-
-
-
-
+function catFamily(list) {
+  for (let i = 0; i < list.length; i++) {
+    console.log(list[i].name);
+  }
+}
+catFamily(cats);
 
 // ------------------------------------------- Question 8
 
